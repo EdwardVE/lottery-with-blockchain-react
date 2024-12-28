@@ -1,0 +1,29 @@
+/* Estilos generales para los botones */
+.login-button {
+  width: 809px;
+  height: 98px;
+  border-radius: 60px;
+  border: none;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Estilo específico cuando el usuario está desconectado */
+.login-button.connect {
+  background-color: #d98fff; /* Morado para conectar */
+}
+
+/* Estilo específico cuando el usuario está conectado */
+.login-button.disconnect {
+  background-color: #ff6b6b; /* Rojo para desconectar */
+}
+
+/* Estilos para la imagen dentro del botón */
+.login-button img {
+  width: 50px;
+}
